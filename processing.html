@@ -1,0 +1,1042 @@
+<html> 
+    <head> 
+      <link rel="icon" type="image/png" href="http://i.imgur.com/m4AxJ8V.png">
+        <title>Processing</title>
+        <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
+       <link href='https://fonts.googleapis.com/css?family=Kalam:700,400' rel='stylesheet' type='text/css'>
+        <Link rel='stylesheet' href='schoolwebstyle.css'>
+        <Link rel='stylesheet' href='schoollinks.css'>
+
+        <style type="text/css">
+/* animated spoiler CSS by Bloggersentral.com */
+.spoilerbutton2 {display:inline;margin-height:50px ;margin-width:0px; width:;}
+.spoiler {overflow:hidden;background: #f5f5f5;}
+.spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+.spoilerbutton2[value="o"] + .spoiler > div {margin-top:-3000%;}
+.spoilerbutton2[value="x"] + .spoiler {padding:1px;} 
+</style> 
+    </head>
+    
+    <body>
+        
+        <div id='links'>
+        <a href='http://chelricerdae.github.io'>Home</a>     
+        
+        
+        
+        </div>
+         <h1>Processing </h1>
+          <span id='proslist'> <br>
+
+Getting Started <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+CHALLENGE - Your First Program<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+ <br>
+<br>
+Drawing Dots - the point() Function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+ <br>
+<br>
+CHALLENGE - Draw your Initial <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">                                                             
+<img src=http://i.imgur.com/Ze73JjN.gif></img>
+<br>
+void setup()<br>
+{<br>
+  frameRate(6);<br>
+size(400, 400);<br>
+}<br>
+void draw()<br>
+{<br>
+background(random(255),random(255),random(255));<br>
+strokeWeight(15);<br>
+//dots for the R<br>
+point(200, 100);<br>
+point(150, 100);<br>
+point(150, 150);<br>
+point(150, 200);<br>
+point(150, 100);<br>
+point(250, 120);<br>
+point(250, 170);<br>
+point(200, 200);<br>
+// |<br>
+point(150, 250);<br>
+point(150, 300);<br>
+// \<br>
+point(225, 250);<br>
+point(250, 300);<br>
+}
+</div></div>
+<br>
+CHALLENGE - Simple Spiral<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+    <img src=http://i.imgur.com/ROb4Hx8.png></img><br>
+    size(380,380);<br>
+strokeWeight(6);<br>
+//1<br>
+point(200,200);<br>
+//2<br>
+point(180,200);<br>
+//3<br>
+point(180,180);<br>
+//4<br>
+point(180,160);<br>
+//5<br>
+point(200,160);<br>
+//6<br>
+point(220,160);<br>
+//7<br>
+point(240,160);<br>
+//8<br>
+point(240,180);<br>
+//9<br>
+point(240,200);<br>
+//10<br>
+point(240,220);<br>
+//11<br>
+point(240,240);<br>
+//12<br>
+point(220,240);<br>
+//13<br>
+point(200,240);<br>
+//14<br>
+point(180,240);<br>
+//15<br>
+point(160,240);<br>
+//16<br>
+point(140,240);<br>
+//17<br>
+point(140,220);<br>
+//18<br>
+point(140,200);<br>
+//19<br>
+point(140,180);<br>
+//20<br>
+point(140,160);<br>
+//21<br>
+point(140,140);<br>
+//22<br>
+point(140,120);<br>
+//23<br>
+point(160,120);<br>
+//24<br>
+point(180,120);<br>
+//25<br>
+point(200,120);<br>
+//26<br>
+point(220,120);<br>
+//27<br>
+point(240,120);<br>
+//28<br>
+point(260,120);<br>
+//29<br>
+point(280,120);<br>
+//30<br>
+point(280,140);<br>
+//31<br>
+point(280,160);<br>
+//32<br>
+point(280,180);<br>
+//33<br>
+point(280,200);<br>
+//34<br>
+point(280,220);<br>
+//35<br>
+point(280,240);<br>
+//36<br>
+point(280,260);<br>
+//37<br>
+point(280,280);<br>
+//38<br>
+point(260,280);<br>
+//39<br>
+point(240,280);<br>
+//40<br>
+point(220,280);<br>
+//41<br>
+point(200,280);<br>
+//42<br>
+point(180,280);<br>
+//43<br>
+point(160,280);<br>
+//44<br>
+point(140,280);<br>
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Dot Grid<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+    <img src="http://i.imgur.com/VjU9cUj.png"></img><br>
+    size(500,500);<br>
+stroke(0);<br>
+strokeWeight(50);<br>
+<br>
+//1<br>
+point(100,100);<br>
+//2<br>
+point(200,100);<br>
+//3<br>
+point(300,100);<br>
+//4<br>
+point(400,100);<br>
+//5<br>
+point(100,200);<br>
+//6<br>
+point(200,200);<br>
+//7<br>
+point(300,200);<br>
+//8<br>
+point(400,200);<br>
+//9<br>
+point(100,300);<br>
+//10<br>
+point(200,300);<br>
+//11<br>
+point(300,300);<br>
+//12<br>
+point(400,300);<br>
+//13<br>
+point(100,400);<br>
+//14<br>
+point(200,400);<br>
+//15<br>
+point(300,400);<br>
+//16<br>
+point(400,400);<br>
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Big & Small Points<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+    <img src="http://i.imgur.com/sp1YF9S.png"></img><br>
+    void setup()<br>
+{<br>
+<br>
+ size(400,325);<br>
+}<br>
+void draw()<br>
+{<br>
+  //side 1<br>
+strokeWeight(100);<br>
+point(50,50);<br>
+point(150,275);<br>
+strokeWeight(75);<br>
+point(50,150);<br>
+point(150,178);<br>
+strokeWeight(50);<br>
+point(50,225);<br>
+point(150,105);<br>
+strokeWeight(30);<br>
+point(50,275);<br>
+point(150,55);<br>
+strokeWeight(20);<br>
+point(50,310);<br>
+point(150,20);<br>
+//side 2<br>
+strokeWeight(100);<br>
+point(250,50);<br>
+point(345,275);<br>
+strokeWeight(75);<br>
+point(250,150);<br>
+point(345,178);<br>
+strokeWeight(50);<br>
+point(250,225);<br>
+point(345,105);<br>
+strokeWeight(30);<br>
+point(250,275);<br>
+point(345,55);<br>
+strokeWeight(20);<br>
+point(250,310);<br>
+point(345,20);<br>
+}<br>
+ </div></div>  
+<br>
+<br>
+Drawing lines - the line() Function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Draw an Octagon<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Interlocking Squares<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - String Art<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Celtic Maze<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Changing Colors<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - RGB Color Codes<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Pointillisim<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Tartan Patterns <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext"> 
+    <img src=http://i.imgur.com/ETzxzgO.png></img><br>  
+    <br>
+    size(400,400);<br>
+background(#ffe094);<br>
+noStroke();<br>
+<br>
+//white stripes<br>
+fill(#fcfdff,200);<br>
+rect(50,0,100,400);<br>
+rect(250,0,100,400);<br>
+rect(0,50,400,100);<br>
+rect(0,250,400,100);<br>
+<br>
+//olive stripes<br>
+fill(#416600,200);<br>
+rect(198,0,4,400);<br>
+rect(0,198,400,4);<br>
+<br>
+//darker yellow stripes<br>
+fill(#ffc331,200);<br>
+rect(99,0,2,400);<br>
+rect(299,0,2,400);<br>
+rect(0,99,400,2);<br>
+rect(0,299,400,2);<br>
+</div></div>  
+<br>
+<br>
+CHALLENGE - Rainbow Name Plate<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Drawing Rectangles - the rect() function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Simple Rainbow<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Mondrian Art<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Quilt Patterns<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Celtic Knot <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Drawing Circles - The ellipse() function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Zebra Circle<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Overlapping Circles <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">                                                             
+<img src=http://i.imgur.com/3XzFq5j.gif></img><br>
+int x;<br>
+int y;<br>
+int direction = 1;<br>
+<br>
+void setup()<br>
+{<br>
+size(600,600);<br>
+frameRate(10);<br>
+<br>
+strokeWeight(1);<br>
+<br>
+noFill();<br>
+x = 5;<br>
+y = 5;<br>
+direction = 1;<br>
+<br>
+}<br>
+<br>
+void draw()<br>
+{<br>
+background(0);<br>
+x += direction*5;<br>
+y += direction*5;<br>
+<br>
+//1st row<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(50,50,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(150,50,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(250,50,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(350,50,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(450,50,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(550,50,x,y);<br>
+<br>
+//2nd row<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(50,150,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(150,150,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(250,150,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(350,150,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(450,150,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(550,150,x,y);<br>
+<br>
+//3rd row<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(50,250,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(150,250,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(250,250,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(350,250,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(450,250,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(550,250,x,y);<br>
+<br>
+//4th row<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(50,350,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(150,350,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(250,350,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(350,350,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(450,350,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(550,350,x,y);<br>
+<br>
+//5th row<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(50,450,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(150,450,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(250,450,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(350,450,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(450,450,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(550,450,x,y);<br>
+<br>
+//6th row<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(50,550,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(150,550,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(250,550,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(350,550,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(450,550,x,y);<br>
+stroke(random(255),random(255),random(255));<br>
+ellipse(550,550,x,y);<br>
+<br>
+if (x >=700)<br>
+{  <br>
+  direction = -1;<br>
+}<br>
+<br>
+if  (x < 25)<br>
+{<br>
+  direction = 1;<br>
+}<br>
+<br>
+}<br>
+<br>
+</div></div>
+<br>
+<br>
+CHALLENGE - Bubbles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Inspired by Kandinsky Circles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Drawing Triangles - The triangle() function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Basic Triangles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - RGB Triangles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Triangular Wireframe<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Sierpinski Triangles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Drawing Arcs - The arc() function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE -  Concentric Arcs<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Drawing Polygons - the beginShape(), endShape() and vertex() functions<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Draw a Polygon<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Create a 10-Sided Star<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Islamic Tiles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Draw a Pokemon<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Multi Shape Images<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Drawing filled shapes<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Shape Robots<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Inspired By Klee - Castle & Sun<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Shape Portrait<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Creating Abstract Art<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Drawing with Text<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Writing text to the screen<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Famous Quote<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Periodic Table<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Describe Yourself<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Transparency<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Transparent Circles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Transparent GrayScale Bubbles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Transparent Letters<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+The random() Function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Random Lines<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Random Starburst<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+\<br>
+<br>
+Animation - using setup() & draw()
+<br>
+<br>
+CHALLENGE - Fill the Screen with Pretty Points<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Fill the Screen with Pretty Lines<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Animated Rainbows<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Animation - using background() between frames
+<br>
+<br>
+CHALLENGE - Using background() and draw()<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Slow Green Dot<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Color shading effects<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Variables
+<br>
+<br>
+CHALLENGE - Using a Variable<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Moving, Fading Dot <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+State Machines
+<br>
+<br>
+CHALLENGE - Stick Figure Animation<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - OptiDisc<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Kit Kat Klock <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Derpy Walker<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Bouncing Ball Animation<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Moving Background<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+CHALLENGE - Circle Walk<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+The if statement<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Out of Range correction<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Moving objects in different directions<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+    <img src="http://i.imgur.com/mtaWEpW.gif"></img><br>
+    int frame;<br>
+int x;<br>
+int y;<br>
+void setup ()<br>
+{<br>
+  background(0);<br>
+  size(450,450);<br>
+  frame = 1;<br>
+  fill(255);<br>
+  strokeWeight(10);<br>
+  stroke(255);<br>
+  frameRate(20);<br>
+  x = 100;<br>
+  y = 100;<br>
+}<br>
+<br>
+void draw()<br>
+{<br>
+  fill(0,0,0,20);<br>
+  rect(0,0,width, height);<br>
+  stroke(0,random(128,255),random(128,255));<br>
+  point(x,y);<br>
+//down<br>
+if (frame >= 1 && frame <= 10)<br>
+{<br>
+  y = y + 25;<br>
+}<br>
+<br>
+//right<br>
+if (frame >= 10.1 && frame <= 20)<br>
+{<br>
+  x = x + 25;<br>
+}<br>
+<br>
+//up<br>
+if (frame >= 20.1 && frame <= 30)<br>
+{<br>
+  y = y - 25;<br>
+}<br>
+<br>
+//left<br>
+if (frame >= 30.1 && frame <= 40)<br>
+{<br>
+  x = x - 25;<br>
+}<br>
+<br>
+  frame++;<br>
+  <br>
+  if (frame > 40)<br>
+  {<br>
+    frame = 1;<br>
+  }<br>
+}<br>
+<br>
+ </div></div>  
+<br>
+<br>
+Wall Wrapping<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Bouncing Ball in a Cage<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Position dependant decisions<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+HSB Color<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Fade out effects<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+    <img src="http://i.imgur.com/Sqo86Wk.gif"></img><br>
+  float x_value;<br>
+<br>
+void setup()<br>
+{<br>
+  size(400, 200);<br>
+  background(0);<br>
+  stroke(255);<br>
+  frameRate(10);<br>
+  //noFill();<br>
+}<br>
+<br>
+void draw()<br>
+{<br>
+  <br>
+  fill(0, 70);<br>
+  rect(0, 0, width, height); <br>
+  stroke(random(255),random(255),random(255));<br>
+ // x_value = (x_value+61) % 400;<br>
+  rect(mouseX, mouseY, 50, 50);<br>
+}<br>
+ </div></div>  
+<br>
+<br>
+User Inputs<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Mouse inputs<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+  <img src="http://i.imgur.com/v77Bx2f.gif"></img><br>
+ void setup() {<br>
+  size(500,400);<br>
+  background(0);<br>
+  noStroke();<br>
+<br>
+}<br>
+ void draw(){<br>
+  fill(200,mouseY+8,mouseX/2);<br>
+  ellipse(mouseX,mouseY,50,50);<br>
+ <br>
+ textSize(100);<br>
+ fill(0);<br>
+text("hi", 10, 100); <br>
+fill(0);<br>
+text("stick", 60, 210);<br>
+fill(0);<br>
+text("lol", 300, 310); <br>
+}<br>
+}<br>
+
+ </div></div>  
+<br>
+<br>
+The keyPressed() functions<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+While Loops<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+While Loops<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Wild circles with while loops
+<br>
+<br>
+Rotation & Translation<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Using rotate()<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Animate with rotate()<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Move your axes!<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Making a spinning clock<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Rectangle rotating around the mouse pointer<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Many rotating objects and resetMatrix()<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Functions<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Creating functions()<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Writing your own functions<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Simplify Programs with Functions<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Using Multiplication to Scale<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Creating a grid of objects using nested while loops<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+The noise() function<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Advanced noise()<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Waves and Cycles<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Sine waves<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Advanced sine waves<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Lissajous Pattern<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+For loops <input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Learn about Arrays<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Vectors and Distance<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Loading photos or images<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Using copy() to re-size or move images<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Advanced Concepts<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+Drawing Textures<input class="spoilerbutton2" type="button" value="o" onclick="this.value=this.value=='o'?'x':'o';">
+<div class="spoiler"><div id="spoilertext">
+ </div></div>  
+<br>
+<br>
+</span>
+          <img id="icon" src = "http://i.imgur.com/UspGjOP.png"></img></img>
+    </body>
+            
+    
+</html>

@@ -1,0 +1,24 @@
+div#links {
+    text-align:right;
+    padding:-5; 
+    margin: 0 auto;
+    height:60px;
+    background-color:#3c2906 ;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.375);
+    
+}
+
+a {
+    padding:-20 ;
+    color: #89c91b;
+    font-size:50 ;
+    
+    
+}
+a:hover {
+    color: crimson;
+    font-size:60 ;
+}
+div:hover {
+    
+}
